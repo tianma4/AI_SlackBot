@@ -92,7 +92,7 @@ def get_data(space_of_interest='IT KB Page (For demo)'):
     """Download relevant data from confluence space."""
 
     confluence = Confluence(
-        url='https://gemini-spaceship.atlassian.net/wiki',
+        url='https://tianma.atlassian.net/wiki',
         username = user,
         password = password,
     )   
